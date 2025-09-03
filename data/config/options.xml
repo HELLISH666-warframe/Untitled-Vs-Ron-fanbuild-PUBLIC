@@ -1,0 +1,18 @@
+<!DOCTYPE codename-mod-options>
+<menu name="Options in a cool way" desc="Shaders and misc.">
+    <menu name="Shaders" desc="Shaders.">
+        <checkbox id="glitch" name="Glitch Shaders" desc="Enable/Disable Glitch Shaders."/>
+        <checkbox id="chrom" name="chromatic aberration" desc="Toggle the chromatic aberration Shader."/>
+	    <number id="chromeOffset" name="rgbintense" min="0.5" max="2" change="0.1"/>
+	    <checkbox id="mosaic" name="Mosaic Shader" desc="Toggle the mosaic shader in pretty wacky"/> 
+        <checkbox id="crt" name="CRT Shader" desc="Toggle the crt shader."/>
+        <checkbox id="colour" name="8bitcolor" desc="8bitcolor_shader"/>
+	    <checkbox id="vhs" name="VHS Shader" desc="Toggle the VHS Shader."/>
+	    <checkbox id="rain" name="RAIN" desc="Toggle the rain shader."/>
+    </menu>
+	<checkbox id="warning" name="Warnings" desc="Toggle the startup warning.(WIP)"/>
+	<checkbox id="legacy" name="Legacy-mode" desc="2.5 in ALL of it's glory!(WIP)"/>
+	<checkbox id="friendly" name="Friendly" desc="He is a fiiendly fellow."/>
+	<checkbox id="rtx" name="rtx" desc="So your not trapped in hell when rtx is on.(WIP)"/>
+	<number id="hitWindow" name="hitWindow" desc="hitWindow" min="10" max="250" change="10"/>
+</menu>

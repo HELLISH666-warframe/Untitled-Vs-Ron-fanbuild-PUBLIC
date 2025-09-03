@@ -1,0 +1,15 @@
+{
+	"displayName": "factory-reset",
+	"bpm": 265.0,
+	"icon": "2.5/reset",
+	"difficulties": [
+		"EASY",
+		"NORMAL",
+		"HARD"
+	],
+	"port": "file-manipulation",
+	"color": "#F02098",
+	"credits_old":"ArmandRonan",
+	"version": "V2.5",
+	"classic":true
+}
